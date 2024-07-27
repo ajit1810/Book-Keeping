@@ -1,0 +1,19 @@
+.header{
+    height: 80vh;
+    align-content: center;
+    position: fixed;
+    left: 18%;
+    animation: fadeIn 1s ease-out forwards;
+    
+}
+
+ .row{
+    font-size: 4rem;
+    text-align: center;
+    margin-left: 35px;
+    margin-top: 25px;
+    font-family: 'Bodoni Moda', serif;
+    color: aliceblue;
+    
+}
+
