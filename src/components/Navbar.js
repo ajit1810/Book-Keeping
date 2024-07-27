@@ -8,17 +8,17 @@ const Navbar = () => {
         <h2>BOOK KEEPING WEBSITE</h2>
         <ul className='navbar-menu'>
         <li>
-          <NavLink  to='/' activeClassName='active'>
+          <NavLink  to='/'>
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink to='/bookForm' activeClassName='active'>
+          <NavLink to='/bookForm'>
             Add Book
           </NavLink>
         </li>
         <li>
-          <NavLink to='/books' activeClassName='active'>
+          <NavLink to='/books'>
             Books
           </NavLink>
         </li>
