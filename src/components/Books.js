@@ -37,7 +37,13 @@ const Books = () => {
    
 
   return (
-    <div style={{animation: "fadeIn 1s ease-out forwards" }}>
+    <div style={{animation: "fadeIn 1s ease-out forwards",
+      height: '100vh',  // Adjust this value as needed
+      overflowY: 'auto',
+      paddingBottom: '20px',
+      boxSizing: 'border-box'
+
+     }}>
         {
         data!=null?
         <>
