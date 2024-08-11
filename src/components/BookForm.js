@@ -45,9 +45,6 @@ const BookForm = () => {
     console.log(formData);
   };
 
-
-  
-
   return (
     <div className="form-container">
     <h2>Register Book</h2>

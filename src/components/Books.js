@@ -37,7 +37,7 @@ const Books = () => {
    
 
   return (
-    <div style={{animation: "fadeIn 1s ease-out forwards"}}>
+    <div style={{animation: "fadeIn 1s ease-out forwards" }}>
         {
         data!=null?
         <>

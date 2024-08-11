@@ -7,11 +7,29 @@
 }
 
 body{
+  padding-top: 100px;
   background-color: black;
   background-image: url(./assets/bg1.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden; /* Prevent scrollbars if not needed */
  
+}
+
+/* Responsive adjustments for smaller devices */
+@media (max-width: 768px) {
+  body {
+    background-size: cover; /* Ensures the image still covers the area */
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    background-size: cover; /* Ensures the image still covers the area */
+  }
 }
 
 @keyframes fadeIn {
