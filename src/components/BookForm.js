@@ -85,7 +85,7 @@ const BookForm = () => {
           required
         />
       </div>
-      <button type="submit">Register</button>
+      <button type="submit" id='btn'>Register</button>
     </form>
   </div>
   )
